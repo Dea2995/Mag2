@@ -3,6 +3,6 @@ local backpack = player.Backpack
 local tool = backpack:FindFirstChild("G19X")
 
 if tool then
-	tool.Mag.Value = 30
-	tool.Ammo.Value = 15
+	tool.Mag.Value = 15
+	tool.Ammo.Value = 30
 end
