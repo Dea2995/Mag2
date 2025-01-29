@@ -1,0 +1,7 @@
+local player = game.Players.LocalPlayer
+local backpack = player.Backpack
+local tool = backpack:FindFirstChild("Glock 23 Extended")
+
+if tool then
+    tool.Ammo.Value = 50
+end
